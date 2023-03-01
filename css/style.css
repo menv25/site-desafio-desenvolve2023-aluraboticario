@@ -26,6 +26,7 @@
     color: #FFFFFF;
     border-color: #0000d6;
 }
+
 body {
     background-color: #33475B;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -76,6 +77,7 @@ header {
         margin-bottom: 10px;   
 }
 /* main apresentação dos cursos */
+
 .container-opcoes-cursos {
     width: 1280px;
     margin: 0 auto;
@@ -98,7 +100,6 @@ margin-bottom: 24px;
 .descricao-curso {
     margin-bottom: 16px;
 }
-
 .link-ementa {
     border: 1px solid #264FEC;
     border-radius: 4px;
