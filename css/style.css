@@ -75,31 +75,46 @@ header {
         font-size: 32px;
         margin-bottom: 10px;   
 }
+/* main apresentação dos cursos */
+.container-opcoes-cursos {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
 
-.conteudoPrincipal-cursos-link {
-	color: #364372;
-    height: 100px;
-	background-color: #FFF;
-	text-align: center;
-	margin: 1%;
-	transition: .3s;
-	box-shadow: 2px 2px 2px #CCC;
-	position: relative;
+.box {
+    background-color: #FFFFFF;
+    width: calc((100% - 64px) / 3);
+    padding: 32px;
 }
-.conteudoPrincipal-cursos-link a {
-	text-decoration: none;
-	color: #000;
-	font-weight: bold;
-	display: block;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
+.titulo-curso {
+color: #364372;
+margin-bottom: 24px;
 }
-.conteudoPrincipal-cursos-link:hover {
-	box-shadow: 4px 4px 4px #CCC;
+
+.descricao-curso {
+    margin-bottom: 16px;
 }
+
+.link-ementa {
+    border: 1px solid #264FEC;
+    border-radius: 4px;
+    padding: 16px;
+    text-decoration: none;
+    width: 160px;
+    height: 54px;
+    color: #264FEC;
+    transition: 1s all;
+    position: absolute;
+}
+.link-ementa:hover {
+    background-color: #264FEC;
+    color: #FFFFFF;
+}
+
 
 /* Footer */
 
